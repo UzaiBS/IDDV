@@ -1,6 +1,7 @@
 import "./Formulario.css"
 import { useState } from "react"
 import { FaUser, FaLock } from "react-icons/fa";
+import logo_IDDV from './imgs/logo_IDDV.png'
 
 export function Formulario({setUser}){
     const   [nombre, setNombre] = useState("")
@@ -16,8 +17,10 @@ export function Formulario({setUser}){
     return (
         <section>            
             <form className= "formulario" onSubmit= {manejoEnvio}>
+
+                <img className="logo" src= {logo_IDDV} />
                 
-                <h1>IDDV</h1>  
+                <h1>Ingrese</h1>  
 
                 <div className="campo">
                     <input type="email" placeholder='Correo' required 

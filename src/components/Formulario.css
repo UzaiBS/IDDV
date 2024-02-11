@@ -1,3 +1,8 @@
+.logo {
+    border-radius: 100%;
+    margin-left: 20%;
+}
+
 .formulario {
     width: 420px;
     /* background: lightslategray;
